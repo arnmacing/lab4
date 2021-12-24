@@ -24,6 +24,7 @@ public class Alice extends Human {
         return subject.msg();
     }
 
+ //inner   
     //Класс для привлекательного предмета беседы
     protected class Subject{
         //Метод для задания имени
