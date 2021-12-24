@@ -27,6 +27,7 @@ public class Plate implements Dishes {
         return this.getName().hashCode() * 127;
     }
 
+  //static inner
     //Класс красных тарелок
     protected static class RedPlates{
         String name = "Красные тарелки";
